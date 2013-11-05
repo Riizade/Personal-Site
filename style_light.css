@@ -1,0 +1,67 @@
+			* {
+	   			font-family: Helvetica, Arial, sans-serif;
+	   			/*This is for looking at positioning */
+	   			/*border: 1px solid black;*/
+	   		}
+	   		
+	   		body {
+	   			background-image: url('light_wool.png');
+	   			background-repeat: repeat;
+	   		}
+	   		
+	   		a {
+	   			color: inherit;
+	   			font-style: inherit;
+	   			text-decoration: inherit;
+	   		}
+	   		
+	   		h2 {
+	   			font-size: 16pt;
+	   		}
+	   		
+	   		a:link {color:#666666;}      /* unvisited link */
+			a:visited {color:#999999;}  /* visited link */
+			a:hover {color:#AAAAAA;}  /* mouse over link */
+			a:active {color:#CCCCCC;}  /* selected link */
+	   		
+	   		.list {
+	   			list-style: none;
+	   		}
+	   		
+	   		.section {
+	   			float: left;
+	   		}
+	   		
+	   		.header {
+	   			font-size: 20pt;
+	   			color: #000000;
+	   			text-shadow: 2px 2px 3px #BBBBBB;
+	   			text-align: center;
+	   		}
+	   		
+	   		#page {
+	   			width: 800px;
+	   			overflow: hidden;
+	   			margin: 0 auto;
+	   			background-color: #FFFFFF;
+	   			border-radius: 5px;
+	   			border: 1px solid #000000;
+	   			padding: 10px;
+	   			box-shadow: 5px 5px 10px #888888;
+	   			float: none;
+	   			
+	   		}
+	   		
+	   		#pagetitle {
+	   			width: 780px;
+	   		}
+	   		
+	   		#links {
+	   			width: 150px;
+	   			border-right: 1px solid black;
+	   		}
+	   		
+	   		#content {
+	   			width: 610px;
+	   			padding: 10px;
+	   		}
